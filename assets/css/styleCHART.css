@@ -1,0 +1,47 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  fill: #242424;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+  cursor: default;
+}
+body .title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 7.5vw;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: #585858;
+  margin: 0.5em auto 5px;
+}
+body .title img {
+  position: relative;
+  display: inline-block;
+  top: 14px;
+  margin-right: 1px;
+  opacity: 0.7;
+}
+body .title img text.legend {
+  font-size: 1vw !important;
+}
+body .chart-container .radarChart {
+  margin: auto;
+}
+body .chart-container .radarChart text.legend {
+  font-size: 150%;
+}
+
+@media only screen and (max-value: 200px) {
+  svg text.legend {
+    font-size: 0.8em;
+  }
+}
+.legend {
+  font-family: 'Raleway', sans-serif;
+  fill: #333333;
+}
+
+.tooltip {
+  fill: #333333;
+}
