@@ -157,84 +157,21 @@
     
     <!-- start somethings_interesting_wrap -->
     <section class="somethings_interesting_wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="title text-center wow fadeInUp" data-wow-delay="0.2s">Have something interesting  in mind? Let’s Talk</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div class="interesting_item">
-                        <div class="interesting_icon wow fadeInUp" data-wow-delay="0.2s">
-                            <img src="assets/images/svg/statue-of-liberty.svg" alt="svg">
-                        </div>
-                        <div class="interesting_content wow fadeInUp" data-wow-delay="0.4s">
-                            <h4>NYC Office</h4>
-                            <p>1243, Manhattan, NYC 123 324 4564 <a href="#"><span>hello@filix.com</span><span>hello@filix.com</span></a> </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div class="interesting_item">
-                        <div class="interesting_icon wow fadeInUp" data-wow-delay="0.4s">
-                            <img src="assets/images/svg/big-ben.svg" alt="svg">
-                        </div>
-                        <div class="interesting_content wow fadeInUp" data-wow-delay="0.6s">
-                            <h4>London Office</h4>
-                            <p>12/B, Southampton, London 234 324 4564  <a href="#"><span>hilondon@filix.com</span> <span>hilondon@filix.com</span></a> </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                    <div class="interesting_item">
-                        <div class="interesting_icon wow fadeInUp" data-wow-delay="0.6s">
-                            <img src="assets/images/svg/eiffel-tower.svg" alt="svg">
-                        </div>
-                        <div class="interesting_content wow fadeInUp" data-wow-delay="0.8s">
-                            <h4>Paris Office</h4>
-                            <p>43, Monte Carlo, Paris 123 324 4564 <a href="#"><span>hello@filix.com</span><span>hello@filix.com</span></a> </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+            <script SameSite="None; Secure" src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+            <div id="myLandbot" style="width: 100%; height: 700px"></div>
+            <script>
+              var myLandbot = new LandbotFrameWidget({
+                container: '#myLandbot',
+                index: 'https://landbot.io/u/H-404240-GS2185KLQ9ED6BCY/index.html',
+              });
+            </script>
+            
+        
     </section>
     <!-- end somethings_interesting_wrap -->
     
-    <!-- start contact_form_wrap -->
-    <section class="contact_form_wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="contact_form_title text-center wow fadeInUp" data-wow-delay="0.5s">Say Hello!</h2>
-                </div>
-                <div class="col-12">
-                    <form action="assets/contact/contact_process.php" method="post" class="contact_form" id="contactForm">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group wow fadeInUp" data-wow-delay="0.2s">
-                                <input type="text" name="name" class="form-control" placeholder="Name*" onfocus="this.placeholder=''" onblur="this.placeholder='Name*'" required>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group wow fadeInUp" data-wow-delay="0.4s">
-                                <input type="email" class="form-control" placeholder="Emai*" onfocus="this.placeholder=''" onblur="this.placeholder='Emai*'" required>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 form-group wow fadeInUp" data-wow-delay="0.6s">
-                                <textarea class="form-control" name="message" placeholder="Message*" onfocus="this.placeholder=''" onblur="this.placeholder='Message*'" required></textarea>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group wow fadeInUp" data-wow-delay="0.2s">
-                                <input type="submit" class="sibmit_btn" value="Visualizza tutti gli articoli ">
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
-                                <div id="success" style="display: none;">Your message succesfully sent!</div>
-                                <div id="error" style="display: none;">Opps! There is something wrong. Please try again</div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end contact_form_wrap -->
+
     
     <footer class="footer">
         <div class="container">
