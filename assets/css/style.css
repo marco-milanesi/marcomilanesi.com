@@ -745,11 +745,13 @@ header.header.headerFixed {
 /*  start hero  */
 
 .hero_warp {
+    
     height: 100vh;
     width: 100%;
-    background: #000 url(../images/hero_bg.jpg) no-repeat fixed top left;
+    background: #000000 url(../images/hero_bg.jpg) no-repeat fixed top left;
     position: fixed;
     z-index: 1;
+    
 }
 
 .hero_warp.hide {
