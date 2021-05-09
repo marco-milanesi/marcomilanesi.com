@@ -3,7 +3,6 @@
 
 <a href="https://marcomilanesi.com/" target="_blank">marco.milanesi.com</a>  is my personal website where I write some article and stuff about my main passion. This repo is where I host my open-source website
 
----
 
 ## License
 
