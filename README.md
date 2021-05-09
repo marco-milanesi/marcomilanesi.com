@@ -3,3 +3,11 @@
 
 > marco.milanesi.com is my personal website where I write some article and stuff about my main passion. This repo is where I host my open-source website
 
+---
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](https://github.com/marco-milanesi/marcomilanesi.com/blob/master/LICENSE)**
+- Copyright 2020 © <a href="https://milanesi.netlify.com/" target="_blank">Marco Milanesi</a>.
