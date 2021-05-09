@@ -10,4 +10,4 @@
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](https://github.com/marco-milanesi/marcomilanesi.com/blob/master/LICENSE)**
-- Copyright 2020 © <a href="https://milanesi.netlify.com/" target="_blank">Marco Milanesi</a>.
+- Copyright 2021 © <a href="https://milanesi.netlify.com/" target="_blank">Marco Milanesi</a>.
