@@ -1,5 +1,5 @@
 # marcomilanesi.com
-[![Netlify Status](https://api.netlify.com/api/v1/badges/729d8cea-4059-4116-b695-16dc88c9a76d/deploy-status)](https://app.netlify.com/sites/milanesi/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1d0c198-d8f0-4b83-95e3-00b2fcd252e4/deploy-status)](https://app.netlify.com/sites/milanesi/deploys)
 
 <a href="https://marcomilanesi.com/" target="_blank">marco.milanesi.com</a>  is my personal website where I write some article and stuff about my main passion. This repo is where I host my open-source website
 
